@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica5</title>
+</head>
+<h1>PREGUNTAS TEORICAS</h1>
+<ol>
+    <li><b>Existen dos formas principales de conectar un archivo HTML con JavaScript.
+    Explique cuáles son estas 2 formas y proporcione un ejemplo básico de cada
+    una.</b></li>
+        <p>Las dos formas principales de conectar JavaScript con HTML son mediante código interno (escribiendo el script directamente en el archivo HTML) y mediante un archivo externo (vinculando un archivo .js independiente).</p>
+        <p>EJEMPLO JAVA SCRIPT INTERNO 
+        <img src="img1.png" alt="JavaScriptinterno"></p>
+        <p>EJEMPLO DE JAVA SCRIPT EXTERNO
+        <img src="img2.png" alt="JavaScriptexterno"></p>
+    <li><b>Explique paso a paso cómo visualizar los resultados de JavaScript utilizando la consola del navegador.</b></li>
+        <p>1. Escribe el código en tu archivo.
+        Debes utilizar el comando console.log() dentro de tu código JavaScript para enviar los datos que deseas revisar a la consola.</p>
+        <p>2. Abre la consola en tu navegador.
+        Abre tu archivo HTML en cualquier navegador web (Chrome, Edge, Firefox o Safari) y abre las herramientas de desarrollador con alguno de estos métodos:
+        El camino rápido (Teclado): Presiona F12 (o Ctrl + Mayús + I en Windows / Cmd + Option + I en Mac).
+        El camino visual (Ratón): Haz clic derecho en cualquier parte de la página web y selecciona Inspeccionar.</p>
+        <p>3. Selecciona la pestaña "Consola"
+        En el panel lateral o inferior que se acaba de abrir, haz clic en la pestaña que dice Console (Consola). Allí verás impreso el texto "¡La conexión funciona correctamente!" junto con cualquier otro mensaje de error o aviso del sistema.
+        Para continuar con tus pruebas, dime si prefieres aprender a ver el valor de una variable matemática en la consola o si deseas ver cómo aparece un mensaje de error cuando el código falla.</p>
+    <li><b>Explique qué son las variables en JavaScript y cuál es la diferencia entre var, let y const. Incluya un ejemplo sencillo de cada una e indique cuál de estas formas ya no se recomienda utilizar actualmente y por qué.</b></li>         
+        <p>Las variables en JavaScript son contenedores digitales que sirven para guardar y etiquetar datos (como texto, números o estados) que tu programa necesita recordar y usar más adelante.</p> 
+        <p1><img src="img3.png" alt="diferencia"></p1>
+        <h2>EJEMPLOS</h2>
+        <img src="img4.png" alt="ejemplos"> 
+        <h3>¿Cuál ya no se recomienda usar y por qué?</h3>
+        <p>No se recomienda utilizar var. En el JavaScript moderno, su uso se considera una mala práctica por dos razones <br>
+        Provoca errores invisibles (Falta de alcance de bloque): var no respeta los bloques de código como los ciclos o las condiciones if. Si declaras un var dentro de un if, esa variable "se escapa" y puede alterar o borrar datos en otras partes de tu programa sin que te des cuenta.
+        Permite la doble declaración: Con var puedes crear dos variables con el mismo nombre exacto en el mismo archivo, y el navegador no te avisará del error; simplemente borrará la primera, lo que causa fallos difíciles de encontrar. let y const detienen el programa de inmediato y te avisan del error.</p>
+
+
+
+
+</ol>
+<body>
+     <script src="script.js"></script>
+</body>
+    
+</html>
